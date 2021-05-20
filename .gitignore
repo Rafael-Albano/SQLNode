@@ -1,0 +1,5 @@
+## DIRETÓRIOS IGNORADOS
+node_modules
+
+# VARIÁVEIS DE AMBIENTE.
+.env

@@ -1,0 +1,14 @@
+const path = require('path'); // Lib utilizada para trabalhar com caminhos de arquivos no nodejs.
+
+module.exports = {
+
+  config: path.resolve(__dirname, 'src', 'config', 'configDatabase.js'), // Define onde o cli do sequelize vai achar o arquivo com as configurações para criar o meu banco de dados.
+  'migrations-path': path.resolve(__dirname, 'src', 'database', 'migrations')
+
+}
+
+/*
+ __dirname = Diretório onde o arquivo .sequelizerc se encontra.
+ Depois use a vírgula para avançar os diretórios.
+ Seguido dos nomes do diretórios + o arquivo desejado.
+*/
